@@ -1,0 +1,578 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Tracker | JuicyAds</title>
+    <meta name="description" content="Tracker profile of JuicyAds. Reach, domains it operates under, tracking technology, web presence by type of site and more.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="same-origin">
+
+    
+    <!-- OG params for sharable content -->
+    <meta property="og:title" content="Tracker | JuicyAds">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://whotracks.me/trackers/juicyads.html">
+    <meta property="og:description" content="Tracker profile of JuicyAds. Reach, domains it operates under, tracking technology, web presence by type of site and more.">
+
+
+    <!-- Stylesheets -->
+    <link rel="icon" href="../static/img/favicon-2.ico">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/custom.css">
+
+    <!--add this block to templates that need extra styling-->
+    
+    <link rel="stylesheet" href="../static/css/trackers/profile.css">
+
+
+    <!-- jQuery -->
+    <script src="../static/js/jquery.min.js"></script>
+    <!-- Plotly JS -->
+    <script src="../static/js/plotly-v1.29.3.min.js"></script>
+    <!-- For relative path resolution -->
+    <script>
+        var pathToRoot = ".."
+    </script>
+</head>
+
+<body>
+<nav class="navbar navbar-blue" role="navigation">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-2">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">
+                        <img class="logo" alt="Who Tracks Me" src="../static/img/logo-white.svg">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-10 col-sm-0">
+                <!--Collapsed under menu in mobile-->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul id="imaginary_container">
+                        <div class="input-group stylish-input-group">
+                            <input id="search-bar" class="form-control" type="text" placeholder="Search website or tracker">
+                        </div>
+                    </ul>
+
+                    <!--Site links-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li  class="active" >
+                            <a class="nav-button" href="../trackers.html">TRACKERS</a>
+                        </li>
+                        <li >
+                            <a class="nav-button" href="../websites.html">WEBSITES</a>
+                        </li>
+                        <li >
+                            <a class="nav-button" href="../blog.html">BLOG</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+
+    
+
+    
+    <div class="breadcrumb-bar" style="border-bottom: solid 1px #333;">
+    
+        <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/trackers.html">Trackers</a></li>
+                    
+                        <li>JuicyAds</li>
+                    
+                </ul>
+        </div>
+    </div>
+    
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+    var operates_under_selector = '#operates-under p',
+        $operates_under_list = $(operates_under_selector),
+        operates_list_size = $operates_under_list.length,
+        items_to_show = 2,
+        $expand = $('.operates-expand'),
+        $collapse = $('.operates-collapse');
+    $(operates_under_selector + ':lt(' +items_to_show+')').show();
+    $expand.click(function(e) {
+        items_to_show = operates_list_size;
+        $(operates_under_selector + ':lt('+items_to_show+')').show();
+        if(items_to_show === operates_list_size) {
+            $collapse.removeClass('hidden');
+            $expand.addClass('hidden');
+        }
+    });
+
+    $collapse.click(function() {
+        $(this).addClass('hidden');
+        $expand.removeClass('hidden');
+        $operates_under_list.not(':lt(2)').hide();
+    });
+
+});
+</script>
+<div id="tracker-page" class="overview-page">
+    <div id="overview-header">
+        <div class="container">
+            <div class="row overview-info inverse">
+                <div class="col-md-6 col-sm-6">
+  <h1>JuicyAds</h1>
+  
+    <p class="header">Owned by JuicyAds</p>
+  
+  
+    <p id="domain">
+        <a target="_blank" rel="noreferrer"  href="http://www.juicyads.com/">http://www.juicyads.com/</a>
+    </p>
+  
+</div>
+
+<div class="col-md-6 col-sm-6">
+  <div class="overview-info-right">
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <p class="header">TRACKER RANK</p>
+        <p class="tracker-rank">
+          <span class="emphasis">194</span>
+          /1064
+        </p>
+        <p class="description">Relatively prevalent</p>
+      </div>
+
+      <div class="col-md-6 col-sm-6">
+        
+          <p class="header">OPERATES UNDER</p>
+          <div id="operates-under">
+          
+            <p>
+              <a class="profile-label"
+                 target="_blank"
+                 rel="noreferrer"
+                 href="//juicyads.com"> juicyads.com
+              </a>
+            </p>
+          
+
+          
+        </div>
+      
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="overview-header-box">
+  <div class="row">
+
+
+    <!-- LEFT COLUMN -->
+    <div class="col-md-6 col-sm-6">
+        <h3>TRACKER REACH</h3>
+        <div class="trend">
+          <img class="trackers-icon" src="../static/img/page.svg">
+          <span class="percentage">
+            0.3%
+            <span class="graph"><div id="0542f115-8276-46a2-8b88-70f492f12599" style="height: 100px; width: 153px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("0542f115-8276-46a2-8b88-70f492f12599", [{"type": "scatter", "x": ["2017-05-01", "2017-06-01", "2017-07-01", "2017-08-01", "2017-09-01", "2017-10-01", "2017-11-01", "2017-12-01", "2018-01-01", "2018-02-01", "2018-03-01", "2018-04-01", "2018-05-01", "2018-06-01", "2018-07-01", "2018-08-01", "2018-09-01"], "y": [0.0956479908307112, 0.08559909285466044, 0.09372479276633355, 0.10021140988352528, 0.11810213454573627, 0.13172679949150512, 0.2018831552347142, 0.24532952744300626, 0.20116606145693505, 0.2054051099151072, 0.2344175922084123, 0.23499153121418373, 0.29305025210476865, 0.2500261486526109, 0.2497031133496877, 0.2950248918961716, 0.2929988370242496], "text": ["0.10% on May 17", "0.09% on Jun 17", "0.09% on Jul 17", "0.10% on Aug 17", "0.12% on Sep 17", "0.13% on Oct 17", "0.20% on Nov 17", "0.25% on Dec 17", "0.20% on Jan 18", "0.21% on Feb 18", "0.23% on Mar 18", "0.23% on Apr 18", "0.29% on May 18", "0.25% on Jun 18", "0.25% on Jul 18", "0.30% on Aug 18", "0.29% on Sep 18"], "hoverinfo": "text", "line": {"color": "#A069AB", "width": 3, "dash": "solid"}, "opacity": 1, "mode": "lines", "marker": {"size": 10}}, {"type": "scatter", "x": ["2018-09-01"], "y": [0.2929988370242496], "text": ["0.29% on Sep 18"], "hoverinfo": "text", "line": {"color": "#A069AB", "width": 3, "dash": "solid"}, "opacity": 1, "mode": "markers", "marker": {"size": 10}}], {"showlegend": false, "margin": {"l": 10, "r": 10, "b": 40, "t": 30, "pad": 5}, "height": 100, "width": 153, "hoverlabel": {"bgcolor": "#1A1A25", "bordercolor": "#00000000", "font": {"family": "monospace", "size": 13, "color": "#BFCBD6"}}, "xaxis": {"autorange": true, "showgrid": false, "zeroline": false, "showline": false, "autotick": true, "hoverformat": "%b %y", "ticks": "", "showticklabels": false}, "yaxis": {"range": [0.0770391835691944, 0.3097761364909802], "showgrid": false, "zeroline": false, "showline": false, "autotick": true, "ticks": "", "showticklabels": false}}, {"showLink": false, "linkText": "Export to plot.ly", "displayModeBar": false})</script></span>
+          </span>
+
+          <p class="description">of web traffic is tracked by JuicyAds</p>
+      </div>
+      <div class="trend">
+          <img class="trackers-icon" src="../static/img/domain.svg">
+          <span class="percentage">
+            0.3%
+            <span class="graph"><div id="c6d3fa45-09df-4d76-b1d4-2e5c53c6c95d" style="height: 100px; width: 153px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("c6d3fa45-09df-4d76-b1d4-2e5c53c6c95d", [{"type": "scatter", "x": ["2017-05-01", "2017-06-01", "2017-07-01", "2017-08-01", "2017-09-01", "2017-10-01", "2017-11-01", "2017-12-01", "2018-01-01", "2018-02-01", "2018-03-01", "2018-04-01", "2018-05-01", "2018-06-01", "2018-07-01", "2018-08-01", "2018-09-01"], "y": [0.4352925680379846, 0.4187880866330757, 0.4106073567151412, 0.4467912266450041, 0.4366751882816279, 0.518810735628081, 0.5758302668964553, 0.5235405300914988, 0.3923784535626225, 0.3164895167401822, 0.28457456929142594, 0.26829659417518836, 0.2832740998657877, 0.312005909157238, 0.3062964479682056, 0.2916767249631658, 0.29101461143300594], "text": ["0.44% on May 17", "0.42% on Jun 17", "0.41% on Jul 17", "0.45% on Aug 17", "0.44% on Sep 17", "0.52% on Oct 17", "0.58% on Nov 17", "0.52% on Dec 17", "0.39% on Jan 18", "0.32% on Feb 18", "0.28% on Mar 18", "0.27% on Apr 18", "0.28% on May 18", "0.31% on Jun 18", "0.31% on Jul 18", "0.29% on Aug 18", "0.29% on Sep 18"], "hoverinfo": "text", "line": {"color": "#A069AB", "width": 3, "dash": "solid"}, "opacity": 1, "mode": "lines", "marker": {"size": 10}}, {"type": "scatter", "x": ["2018-09-01"], "y": [0.29101461143300594], "text": ["0.29% on Sep 18"], "hoverinfo": "text", "line": {"color": "#A069AB", "width": 3, "dash": "solid"}, "opacity": 1, "mode": "markers", "marker": {"size": 10}}], {"showlegend": false, "margin": {"l": 10, "r": 10, "b": 40, "t": 30, "pad": 5}, "height": 100, "width": 153, "hoverlabel": {"bgcolor": "#1A1A25", "bordercolor": "#00000000", "font": {"family": "monospace", "size": 13, "color": "#BFCBD6"}}, "xaxis": {"autorange": true, "showgrid": false, "zeroline": false, "showline": false, "autotick": true, "hoverformat": "%b %y", "ticks": "", "showticklabels": false}, "yaxis": {"range": [0.24146693475766953, 0.6046217802412781], "showgrid": false, "zeroline": false, "showline": false, "autotick": true, "ticks": "", "showticklabels": false}}, {"showLink": false, "linkText": "Export to plot.ly", "displayModeBar": false})</script></span>
+          </span>
+          <p class="description">of sites use the JuicyAds tracker</p>
+      </div>
+      <p class="subtitle">
+        
+          Data from May 2017 to September 2018.
+        
+      </p>
+    </div>
+
+
+    <!-- Right COLUMN -->
+    <div class="col-md-6 col-sm-6">
+          <h3>SEEN ON THESE TYPES OF WEBSITES</h3>
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">65% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="81.25" aria-valuemin="0" aria-valuemax="100" style="width: 81.25%">
+                Adult
+                </div>
+              </div>
+            </div>
+            
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">12% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="15.0" aria-valuemin="0" aria-valuemax="100" style="width: 15.0%">
+                Entertainment
+                </div>
+              </div>
+            </div>
+            
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">12% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="15.0" aria-valuemin="0" aria-valuemax="100" style="width: 15.0%">
+                Adult 
+                </div>
+              </div>
+            </div>
+            
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">10% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="12.5" aria-valuemin="0" aria-valuemax="100" style="width: 12.5%">
+                Business
+                </div>
+              </div>
+            </div>
+            
+          
+
+          <h3>TRACKING TYPE</h3>
+          <div class="row tracking-methods">
+            
+
+            
+            
+              <p>No tracking detected at present</p>
+            
+          </div>
+    </div>
+  </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="similar-trackers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="row tracker-category">
+                        <div class="col-md-11">
+                        <h4>TRACKER CATEGORY</h4>
+                        
+                            <span class="cat-item">
+                                <i class="fa fa-circle" style="color: #E3A2D4" aria-hidden="true"></i>
+                                Pornvertising
+                            </span>
+                            <p class="tracker-desc">Delivers advertisements that generally appear on adult content sites.</p>
+                        
+                        <p>
+                            <i class="fa fa-info-circle"></i>
+                            <a href="../blog/tracker_categories.html">Learn about our tracker categories</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-info-circle"></i>
+                            <a href="../blog/what_is_a_tracker.html">What is a tracker?</a>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6  col-sm-6 col-xs-12">
+                    <h4>SIMILAR TRACKERS</h4>
+                    <ul>
+                        
+                            <li>
+                                <a href="../trackers/exoclick.html" class="entity-name">
+                                ExoClick
+                                </a>
+                                
+                                    <span>
+                                        ExoClick
+                                    </span>
+                                
+                            </li>
+                        
+                            <li>
+                                <a href="../trackers/trafficjunky.html" class="entity-name">
+                                TrafficJunky
+                                </a>
+                                
+                                    <span>
+                                        TrafficJunky
+                                    </span>
+                                
+                            </li>
+                        
+                            <li>
+                                <a href="../trackers/pornhub.html" class="entity-name">
+                                PornHub
+                                </a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a href="../trackers/doublepimp.html" class="entity-name">
+                                DoublePimp
+                                </a>
+                                
+                                    <span>
+                                        DoublePimp
+                                    </span>
+                                
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="tag-cloud">
+        <div class="container">
+            <div class="row">
+                <h2 class="title">Presence on top sites</h2>
+                
+                    <script src="../static/js/d3.min.js"></script>
+<script src="../static/js/d3.layout.cloud.js"></script>
+
+<script>
+        function sanitiseCategory(cat) {
+            return cat.replace(/\s/g, '_').toLowerCase();
+        }
+
+        function drawTagCloud(cat, siteList) {
+            var container = document.getElementById('tag_cloud_container');
+            var width = Math.max(container.offsetWidth, 300);
+            var height = Math.max(container.offsetHeight - 5, 400);
+            var containerSvg = document.getElementById('tag_cloud');
+            containerSvg.setAttribute('width', width);
+            containerSvg.setAttribute('height', height);
+
+            var sites = JSON.parse(siteList);
+            var minSize = 20;
+            var maxSize = 100;
+            var scaleFactor = (maxSize - minSize) / 0.3;
+
+            var layout = d3.layout.cloud()
+                .size([width, height])
+                .words(sites.map(function (d) {
+                    return {
+                        text: d.site.replace('www.', ''),
+                        size: Math.min(maxSize, minSize + d.frequency * scaleFactor),
+                        rotate: 0,
+                        opacity: 0.5 + (d.site_freq || 0. * 0.7),
+                        colour: d.site_cat,
+                        href: d.url,
+                        category: d.category,
+                    };
+                }))
+                .padding(3)
+                .rotate(function (d) { return 0 })
+                .font("Impact")
+                .fontSize(function (d) { return d.size; })
+                .on("end", draw);
+
+            layout.start();
+
+            function draw(words) {
+                d3.select('#tag_cloud')
+                    .append("g")
+                    .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
+                    .selectAll("text")
+                    .data(words)
+                    .enter().append("text")
+                    .style("font-size", function (d) { return d.size + "px"; })
+                    .style("font-family", "Helvetica")
+                    .style("fill", function (d) { return d.colour })
+                    .attr("class", function (d) { return "category-" + sanitiseCategory(d.category) })
+                    .attr("opacity", function (d) { return d.opacity })
+                    .attr("text-anchor", "middle")
+                    .attr("transform", function (d) {
+                        return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                    })
+                    .insert('a')
+                    .attr("href", function (d) { return d.href })
+                    .text(function (d) { return d.text; });
+            }
+        }
+
+        var activeCategories = [];
+
+        function toggleTagCloudCategory(cat) {
+            if (cat === "all") {
+                // unselect buttons
+                activeCategories.forEach(function(otherCat) {
+                    document.getElementById('button-' + otherCat).classList.remove('active');
+                });
+                document.getElementById('button-all').classList.add('active');
+                // make everything visible
+                d3.selectAll("#tag_cloud text").style("visibility", "visible");
+                activeCategories = [];
+            } else {
+                document.getElementById('button-all').classList.remove('active');
+                document.getElementById('button-' + cat).classList.add('active');
+
+                if (activeCategories.length === 0) {
+                    // hide everything
+                    d3.selectAll("#tag_cloud text").style("visibility", "hidden");
+                }
+                // make just elements from specified categories visible
+                d3.selectAll("#tag_cloud text.category-" + sanitiseCategory(cat)).style("visibility", "visible");
+                activeCategories.push(cat);
+            }
+        }
+    </script>
+
+
+<ul class="nav nav-tabs">
+    <li class="active" id="button-all">
+        <a href="#all" onclick="toggleTagCloudCategory('all')">Show all</a>
+    </li>
+    
+        
+    
+        
+            <li id="button-Adult">
+                <a href="#Adult" onclick="toggleTagCloudCategory('Adult')">Adult</a>
+            </li>
+        
+    
+        
+            <li id="button-Business">
+                <a href="#Business" onclick="toggleTagCloudCategory('Business')">Business</a>
+            </li>
+        
+    
+        
+            <li id="button-Entertainment">
+                <a href="#Entertainment" onclick="toggleTagCloudCategory('Entertainment')">Entertainment</a>
+            </li>
+        
+    
+</ul>
+
+<div class="tab-content">
+    <div id="tag_cloud_container" class="tab-pane fade in active">
+        <svg id="tag_cloud" height=400></svg>
+        <script>drawTagCloud('all', '[{"category": "Adult", "frequency": 0.13275707558116698, "site": "e-hentai.org", "site_cat": "#FFAEB9", "site_freq": 0.7879674073132225, "url": "../websites/e-hentai.org.html"}, {"category": "Adult", "frequency": 0.07071475241267768, "site": "paheal.net", "site_cat": "#FFAEB9", "site_freq": 0.7902249264375841, "url": "../websites/paheal.net.html"}, {"category": "", "frequency": 0.06649636000756919, "site": "hpjav.tv", "site_cat": "#000", "site_freq": 0.7795042429188771, "url": null}, {"category": "Adult", "frequency": 0.053817975385867765, "site": "avgle.com", "site_cat": "#FFAEB9", "site_freq": 0.7987018148099087, "url": "../websites/avgle.com.html"}, {"category": "Entertainment", "frequency": 0.04611490165415252, "site": "nyaa.si", "site_cat": "#B8B8B8", "site_freq": 0.4161048960623706, "url": "../websites/nyaa.si.html"}, {"category": "Business", "frequency": 0.0427587536551665, "site": "biqle.ru", "site_cat": "blue", "site_freq": 0.6793737236215113, "url": "../websites/biqle.ru.html"}, {"category": "Adult", "frequency": 0.032890250390062936, "site": "javlibrary.com", "site_cat": "#FFAEB9", "site_freq": 0.7397859824529703, "url": "../websites/javlibrary.com.html"}, {"category": "", "frequency": 0.02481675074888515, "site": "popjav.tv", "site_cat": "#000", "site_freq": 0.7258131885344332, "url": null}, {"category": "", "frequency": 0.02247815826023, "site": "javfinder.is", "site_cat": "#000", "site_freq": 0.7374663230643083, "url": null}, {"category": "Adult", "frequency": 0.02033504354066473, "site": "tokyomotion.net", "site_cat": "#FFAEB9", "site_freq": 0.34160531406036804, "url": "../websites/tokyomotion.net.html"}, {"category": "", "frequency": 0.01885155471770868, "site": "javbus.com", "site_cat": "#000", "site_freq": 0.7830342577487766, "url": null}, {"category": "", "frequency": 0.01735913996922341, "site": "javtorrent.re", "site_cat": "#000", "site_freq": 0.7777022433718559, "url": null}, {"category": "", "frequency": 0.013136284601350315, "site": "javdoe.com", "site_cat": "#000", "site_freq": 0.7329548284277105, "url": null}, {"category": "", "frequency": 0.013078266085410396, "site": "milfzr.com", "site_cat": "#000", "site_freq": 0.7641597997287994, "url": null}, {"category": "", "frequency": 0.011742947626239364, "site": "shadbase.com", "site_cat": "#000", "site_freq": 0.7325167037861915, "url": null}, {"category": "", "frequency": 0.011413580974211216, "site": "incestflix.com", "site_cat": "#000", "site_freq": 0.7595485595485596, "url": null}, {"category": "", "frequency": 0.011106529136006113, "site": "fap-nation.com", "site_cat": "#000", "site_freq": 0.7217936075178375, "url": null}, {"category": "", "frequency": 0.010914621737127922, "site": "myhentaicomics.com", "site_cat": "#000", "site_freq": 0.7524460033228725, "url": null}, {"category": "", "frequency": 0.010287129172423887, "site": "wnacg.org", "site_cat": "#000", "site_freq": 0.7938421270147403, "url": null}, {"category": "", "frequency": 0.010045236590582077, "site": "veporns.com", "site_cat": "#000", "site_freq": 0.8017953833000855, "url": null}, {"category": "", "frequency": 0.010028277332076565, "site": "javqd.com", "site_cat": "#000", "site_freq": 0.7296402130146772, "url": null}, {"category": "", "frequency": 0.0092972440312336, "site": "thisav.com", "site_cat": "#000", "site_freq": 0.2993963782696177, "url": null}, {"category": "", "frequency": 0.00867778479950586, "site": "javmost.com", "site_cat": "#000", "site_freq": 0.6073592803148622, "url": null}, {"category": "", "frequency": 0.007916403351863555, "site": "nudecollect.com", "site_cat": "#000", "site_freq": 0.4522000713812268, "url": null}, {"category": "", "frequency": 0.007262133010571866, "site": "camvault.xyz", "site_cat": "#000", "site_freq": 0.7394346996273744, "url": null}, {"category": "", "frequency": 0.007105036721257627, "site": "d21b.com", "site_cat": "#000", "site_freq": 0.689475963620615, "url": null}, {"category": "", "frequency": 0.0067033700724428115, "site": "myhentaigallery.com", "site_cat": "#000", "site_freq": 0.8290098244839387, "url": null}, {"category": "", "frequency": 0.006149962689631288, "site": "cfake.com", "site_cat": "#000", "site_freq": 0.5955056179775281, "url": null}, {"category": "", "frequency": 0.006103547876879354, "site": "neswangy.net", "site_cat": "#000", "site_freq": 0.6527923627684964, "url": null}, {"category": "", "frequency": 0.005912533070554085, "site": "wnacg.com", "site_cat": "#000", "site_freq": 0.7786528741036793, "url": null}, {"category": "", "frequency": 0.00581613307483853, "site": "xtapes.to", "site_cat": "#000", "site_freq": 0.7414656349567592, "url": null}, {"category": "", "frequency": 0.005335918281366595, "site": "imgrock.pw", "site_cat": "#000", "site_freq": 0.6313899450781579, "url": null}, {"category": "", "frequency": 0.0050092294069972116, "site": "pantsu.cat", "site_cat": "#000", "site_freq": 0.5031830000896621, "url": null}, {"category": "", "frequency": 0.004944962743186841, "site": "imgoutlet.pw", "site_cat": "#000", "site_freq": 0.6810079901659496, "url": null}, {"category": "", "frequency": 0.004810181267695647, "site": "imgdew.pw", "site_cat": "#000", "site_freq": 0.6449258018190521, "url": null}, {"category": "", "frequency": 0.004641481275193425, "site": "7mm.tv", "site_cat": "#000", "site_freq": 0.17864504603545414, "url": null}, {"category": "", "frequency": 0.004436184988021408, "site": "imgtown.pw", "site_cat": "#000", "site_freq": 0.5978587754120053, "url": null}, {"category": "", "frequency": 0.004354959065705523, "site": "kissjav.com", "site_cat": "#000", "site_freq": 0.6264766307139189, "url": null}, {"category": "", "frequency": 0.0040755775966409965, "site": "voxed.win", "site_cat": "#000", "site_freq": 0.6291856138900372, "url": null}, {"category": "", "frequency": 0.003977392415819596, "site": "imgmaze.pw", "site_cat": "#000", "site_freq": 0.7061806656101426, "url": null}, {"category": "", "frequency": 0.003976499823266674, "site": "spankingtube.com", "site_cat": "#000", "site_freq": 0.6411917098445595, "url": null}, {"category": "", "frequency": 0.003900629456268321, "site": "ahri8.com", "site_cat": "#000", "site_freq": 0.776750799857803, "url": null}, {"category": "", "frequency": 0.003843503532881325, "site": "opjav.com", "site_cat": "#000", "site_freq": 0.822069492172585, "url": null}, {"category": "", "frequency": 0.0038336850147991843, "site": "imgs.to", "site_cat": "#000", "site_freq": 0.7205166918302298, "url": null}, {"category": "", "frequency": 0.003828329459481654, "site": "xmoviesforyou.com", "site_cat": "#000", "site_freq": 0.24189273024646105, "url": null}, {"category": "", "frequency": 0.0037247887233427244, "site": "hentaimama.com", "site_cat": "#000", "site_freq": 0.7485201793721973, "url": null}, {"category": "", "frequency": 0.00367391094782618, "site": "gojav.xyz", "site_cat": "#000", "site_freq": 0.7697774452964279, "url": null}, {"category": "", "frequency": 0.0036248183574154815, "site": "hbrowse.com", "site_cat": "#000", "site_freq": 0.8104170824186789, "url": null}, {"category": "Adult", "frequency": 0.0036230331723096365, "site": "porncomix.info", "site_cat": "#FFAEB9", "site_freq": 0.13581155686418844, "url": "../websites/porncomix.info.html"}, {"category": "", "frequency": 0.003577510952110624, "site": "177pic.info", "site_cat": "#000", "site_freq": 0.8007992007992007, "url": null}, {"category": "", "frequency": 0.0035730479893460155, "site": "xanimeporn.com", "site_cat": "#000", "site_freq": 0.7824472243940579, "url": null}, {"category": "", "frequency": 0.003543592435099596, "site": "camcaps.net", "site_cat": "#000", "site_freq": 0.6729954229530429, "url": null}, {"category": "", "frequency": 0.003442729476619431, "site": "sexfetishforum.com", "site_cat": "#000", "site_freq": 0.8392080069625761, "url": null}, {"category": "", "frequency": 0.0032356480043415703, "site": "imgdrive.net", "site_cat": "#000", "site_freq": 0.3039067739771965, "url": null}, {"category": "", "frequency": 0.0032124405979656032, "site": "h-flash.com", "site_cat": "#000", "site_freq": 0.8179545454545455, "url": null}, {"category": "", "frequency": 0.0031142554171442035, "site": "tabooporns.com", "site_cat": "#000", "site_freq": 0.7524261375889584, "url": null}, {"category": "", "frequency": 0.003082122085239018, "site": "thehun.net", "site_cat": "#000", "site_freq": 0.2349778836338891, "url": null}, {"category": "", "frequency": 0.0030017887554760554, "site": "javmoo.com", "site_cat": "#000", "site_freq": 0.42645194014709614, "url": null}, {"category": "", "frequency": 0.002898248019337125, "site": "85porn.com", "site_cat": "#000", "site_freq": 0.7938875305623472, "url": null}, {"category": "", "frequency": 0.00284647765126766, "site": "undertow.club", "site_cat": "#000", "site_freq": 0.6693954659949622, "url": null}, {"category": "", "frequency": 0.0028348739480796767, "site": "av8x.com", "site_cat": "#000", "site_freq": 0.7826515524889108, "url": null}, {"category": "", "frequency": 0.002743829507681652, "site": "salefiles.com", "site_cat": "#000", "site_freq": 0.3885237613751264, "url": null}, {"category": "", "frequency": 0.0027161591385410754, "site": "jav321.com", "site_cat": "#000", "site_freq": 0.6690853122251539, "url": null}, {"category": "", "frequency": 0.002666173955577454, "site": "wetblog.to", "site_cat": "#000", "site_freq": 0.5666856383987858, "url": null}, {"category": "", "frequency": 0.002660818400259923, "site": "onlyhgames.com", "site_cat": "#000", "site_freq": 0.7233681145353069, "url": null}, {"category": "", "frequency": 0.0026126184024021447, "site": "myhotzpic.com", "site_cat": "#000", "site_freq": 0.710264498908032, "url": null}, {"category": "", "frequency": 0.002568881367308976, "site": "porn77.info", "site_cat": "#000", "site_freq": 0.6628281897742976, "url": null}, {"category": "", "frequency": 0.0025197887768982764, "site": "streamjav.net", "site_cat": "#000", "site_freq": 0.7621490280777538, "url": null}, {"category": "", "frequency": 0.0025019369258398407, "site": "jpg4.net", "site_cat": "#000", "site_freq": 0.3013978494623656, "url": null}, {"category": "", "frequency": 0.0024653406311700462, "site": "underhentai.net", "site_cat": "#000", "site_freq": 0.599002385599653, "url": null}, {"category": "", "frequency": 0.002456414705640828, "site": "porevo.info", "site_cat": "#000", "site_freq": 0.25550088199795745, "url": null}, {"category": "", "frequency": 0.002342162858866836, "site": "vidoza.net", "site_cat": "#000", "site_freq": 0.16235614404157905, "url": null}, {"category": "", "frequency": 0.0023243110078084, "site": "cumonprintedpics.com", "site_cat": "#000", "site_freq": 0.8346153846153846, "url": null}, {"category": "", "frequency": 0.002297533231220745, "site": "older-beauty.com", "site_cat": "#000", "site_freq": 0.5899610359844144, "url": null}, {"category": "", "frequency": 0.0022832517503739965, "site": "javhihi.com", "site_cat": "#000", "site_freq": 0.7709463532248343, "url": null}, {"category": "", "frequency": 0.002213629531246095, "site": "orsm.net", "site_cat": "#000", "site_freq": 0.32825943084050296, "url": null}, {"category": "", "frequency": 0.0022091665684814857, "site": "javtc.com", "site_cat": "#000", "site_freq": 0.7374851013110846, "url": null}, {"category": "Adult", "frequency": 0.002199348050399346, "site": "hentaihaven.org", "site_cat": "#FFAEB9", "site_freq": 0.07075580059728923, "url": "../websites/hentaihaven.org.html"}, {"category": "", "frequency": 0.0021484702748828027, "site": "v22q.com", "site_cat": "#000", "site_freq": 0.5663529411764706, "url": null}, {"category": "", "frequency": 0.002128833238718523, "site": "imgview.pw", "site_cat": "#000", "site_freq": 0.6196414653156664, "url": null}, {"category": "", "frequency": 0.00207795546320198, "site": "shahvani.com", "site_cat": "#000", "site_freq": 0.8159831756046267, "url": null}, {"category": "", "frequency": 0.0020583184270376994, "site": "babesmachine.com", "site_cat": "#000", "site_freq": 0.6836643937147939, "url": null}, {"category": "", "frequency": 0.0020502850940614034, "site": "adulttvlive.net", "site_cat": "#000", "site_freq": 0.8885880077369439, "url": null}, {"category": "", "frequency": 0.0020458221312967947, "site": "mytubes.xyz", "site_cat": "#000", "site_freq": 0.1842295635399084, "url": null}, {"category": "", "frequency": 0.0020395739834263415, "site": "xwb2uooia5o59avwxb.com", "site_cat": "#000", "site_freq": 0.7501641497045305, "url": null}, {"category": "", "frequency": 0.0020110110217328434, "site": "busjav.net", "site_cat": "#000", "site_freq": 0.8177858439201452, "url": null}, {"category": "", "frequency": 0.00198958880046272, "site": "streamxxx.tv", "site_cat": "#000", "site_freq": 0.7702142363510712, "url": null}, {"category": "", "frequency": 0.001968166579192597, "site": "jav.guru", "site_cat": "#000", "site_freq": 0.2076271186440678, "url": null}, {"category": "", "frequency": 0.0019297850994169587, "site": "av4.xyz", "site_cat": "#000", "site_freq": 0.12187147688838786, "url": null}, {"category": "", "frequency": 0.0019092554706997566, "site": "famousboard.com", "site_cat": "#000", "site_freq": 0.7265625, "url": null}, {"category": "", "frequency": 0.001875336953688728, "site": "xxxaporn.com", "site_cat": "#000", "site_freq": 0.7830786433097279, "url": null}, {"category": "", "frequency": 0.001793218438819921, "site": "nyuu.info", "site_cat": "#000", "site_freq": 0.19638318670576732, "url": null}, {"category": "", "frequency": 0.0017842925132907032, "site": "gameofporn.net", "site_cat": "#000", "site_freq": 0.6970013947001394, "url": null}, {"category": "", "frequency": 0.0017378777005387688, "site": "voyeur-house.club", "site_cat": "#000", "site_freq": 0.5001284356537374, "url": null}, {"category": "", "frequency": 0.0017369851079858472, "site": "porn-image-xxx.com", "site_cat": "#000", "site_freq": 0.6893375841303577, "url": null}, {"category": "", "frequency": 0.0017075295537394273, "site": "juicygif.com", "site_cat": "#000", "site_freq": 0.5447038724373576, "url": null}, {"category": "", "frequency": 0.0016914628877868346, "site": "realfamilyincest.com", "site_cat": "#000", "site_freq": 0.7041991824600521, "url": null}, {"category": "", "frequency": 0.001661114740987493, "site": "avmo.co", "site_cat": "#000", "site_freq": 0.8951418951418951, "url": null}, {"category": "", "frequency": 0.0016584369633287274, "site": "91porn.com", "site_cat": "#000", "site_freq": 0.2578764746703678, "url": null}, {"category": "", "frequency": 0.0016405851122702911, "site": "dmmbus.com", "site_cat": "#000", "site_freq": 0.6777286135693216, "url": null}, {"category": "", "frequency": 0.0015995258548358881, "site": "tmohentai.com", "site_cat": "#000", "site_freq": 0.463768115942029, "url": null}, {"category": "", "frequency": 0.0015923851144125135, "site": "imghost.top", "site_cat": "#000", "site_freq": 0.7243199350385708, "url": null}, {"category": "", "frequency": 0.001584351781436217, "site": "animestigma.com", "site_cat": "#000", "site_freq": 0.7470538720538721, "url": null}, {"category": "", "frequency": 0.0015513258569781099, "site": "hentai-comic.com", "site_cat": "#000", "site_freq": 0.5132900177200236, "url": null}, {"category": "", "frequency": 0.0015423999314488918, "site": "hiddenlol.com", "site_cat": "#000", "site_freq": 0.5029103608847497, "url": null}, {"category": "", "frequency": 0.001518299932520003, "site": "hypnotube.com", "site_cat": "#000", "site_freq": 0.7662162162162162, "url": null}, {"category": "", "frequency": 0.001470099934662225, "site": "seneporno.com", "site_cat": "#000", "site_freq": 0.5894774516821761, "url": null}, {"category": "", "frequency": 0.001446892528286258, "site": "jav789.com", "site_cat": "#000", "site_freq": 0.8224251648909183, "url": null}, {"category": "", "frequency": 0.0014308258623336651, "site": "5278.cc", "site_cat": "#000", "site_freq": 0.2132216014897579, "url": null}, {"category": "", "frequency": 0.0014138666038281508, "site": "hairyclassic.com", "site_cat": "#000", "site_freq": 0.3500552486187845, "url": null}, {"category": "", "frequency": 0.001409403641063542, "site": "porndish.com", "site_cat": "#000", "site_freq": 0.7642787996127783, "url": null}, {"category": "", "frequency": 0.001399585122981402, "site": "177piczz.info", "site_cat": "#000", "site_freq": 0.8686980609418282, "url": null}, {"category": "", "frequency": 0.0013647740134174512, "site": "anotherbabe.com", "site_cat": "#000", "site_freq": 0.4092612419700214, "url": null}, {"category": "", "frequency": 0.0013629888283116073, "site": "teengirl-pics.com", "site_cat": "#000", "site_freq": 0.7257604562737643, "url": null}, {"category": "", "frequency": 0.0013228221634301262, "site": "porncomix.one", "site_cat": "#000", "site_freq": 0.2820171265461465, "url": null}, {"category": "", "frequency": 0.0013022925347129244, "site": "ojcfdofzbk9yik290l.com", "site_cat": "#000", "site_freq": 0.8038567493112948, "url": null}, {"category": "", "frequency": 0.0012826554985486446, "site": "elreyx.com", "site_cat": "#000", "site_freq": 0.694538424359594, "url": null}, {"category": "", "frequency": 0.0012701592028077392, "site": "javbuz.com", "site_cat": "#000", "site_freq": 0.7454164484023049, "url": null}, {"category": "", "frequency": 0.0012639110549372864, "site": "verpornocomic.com", "site_cat": "#000", "site_freq": 0.8290398126463701, "url": null}, {"category": "", "frequency": 0.0012621258698314428, "site": "babesrater.com", "site_cat": "#000", "site_freq": 0.7581769436997319, "url": null}, {"category": "", "frequency": 0.0012496295740905374, "site": "hentaiplay.net", "site_cat": "#000", "site_freq": 0.7808142777467931, "url": null}, {"category": "", "frequency": 0.0012415962411142412, "site": "newgrounds.com", "site_cat": "#000", "site_freq": 0.06558227251296557, "url": null}, {"category": "", "frequency": 0.001228207352820414, "site": "hdpornstarz.com", "site_cat": "#000", "site_freq": 0.7196652719665272, "url": null}, {"category": "", "frequency": 0.0012237443900558046, "site": "redbust.com", "site_cat": "#000", "site_freq": 0.6678032148075986, "url": null}, {"category": "", "frequency": 0.001213925871973665, "site": "monstercock.ws", "site_cat": "#000", "site_freq": 0.7714123652864435, "url": null}, {"category": "", "frequency": 0.001208570316656134, "site": "javbus.info", "site_cat": "#000", "site_freq": 0.6525301204819277, "url": null}, {"category": "", "frequency": 0.0011639406890100435, "site": "hairy-women-pussy.net", "site_cat": "#000", "site_freq": 0.3433385992627699, "url": null}, {"category": "", "frequency": 0.0011594777262454346, "site": "hentai-id.tv", "site_cat": "#000", "site_freq": 0.4126429479034308, "url": null}, {"category": "", "frequency": 0.0011398406900811546, "site": "animeholics.org", "site_cat": "#000", "site_freq": 0.7318051575931233, "url": null}, {"category": "", "frequency": 0.001131807357104858, "site": "megaxz.com", "site_cat": "#000", "site_freq": 0.6631799163179917, "url": null}, {"category": "", "frequency": 0.001128236986893171, "site": "aerisdies.com", "site_cat": "#000", "site_freq": 0.8529014844804319, "url": null}, {"category": "", "frequency": 0.0010978888400938293, "site": "mangafap.com", "site_cat": "#000", "site_freq": 0.8704883227176221, "url": null}, {"category": "", "frequency": 0.0010836073592470805, "site": "ceporn.net", "site_cat": "#000", "site_freq": 0.4496296296296297, "url": null}, {"category": "", "frequency": 0.0010827147666941585, "site": "animephile.com", "site_cat": "#000", "site_freq": 0.737386018237082, "url": null}, {"category": "", "frequency": 0.0010818221741412367, "site": "xvideospanish.net", "site_cat": "#000", "site_freq": 0.8295687885010267, "url": null}, {"category": "", "frequency": 0.0010809295815883148, "site": "r34anim.com", "site_cat": "#000", "site_freq": 0.8057218895542249, "url": null}, {"category": "", "frequency": 0.001080036989035393, "site": "faproulette.co", "site_cat": "#000", "site_freq": 0.7751441383728379, "url": null}, {"category": "", "frequency": 0.0010782518039295494, "site": "totempole666.com", "site_cat": "#000", "site_freq": 0.799470549305096, "url": null}, {"category": "", "frequency": 0.001071111063506175, "site": "javhoo.ca", "site_cat": "#000", "site_freq": 0.8540925266903915, "url": null}, {"category": "", "frequency": 0.0010577221752123478, "site": "pornqd.com", "site_cat": "#000", "site_freq": 0.7801184990125082, "url": null}, {"category": "", "frequency": 0.0010541518050006604, "site": "kisshentai.net", "site_cat": "#000", "site_freq": 0.7236519607843137, "url": null}, {"category": "", "frequency": 0.0010505814347889734, "site": "hdmoza.com", "site_cat": "#000", "site_freq": 0.7031063321385902, "url": null}, {"category": "", "frequency": 0.0010505814347889734, "site": "picmoza.com", "site_cat": "#000", "site_freq": 0.3767605633802817, "url": null}, {"category": "", "frequency": 0.0010282666209659279, "site": "freearabsexx.com", "site_cat": "#000", "site_freq": 0.7286527514231499, "url": null}, {"category": "", "frequency": 0.0010229110656483974, "site": "lewd.ninja", "site_cat": "#000", "site_freq": 0.6741176470588235, "url": null}, {"category": "", "frequency": 0.001022018473095475, "site": "javwide.com", "site_cat": "#000", "site_freq": 0.453824811732065, "url": null}, {"category": "", "frequency": 0.001018448102883788, "site": "blogmaxegatos.com", "site_cat": "#000", "site_freq": 0.7086956521739131, "url": null}, {"category": "", "frequency": 0.0009970258816136646, "site": "muchohentai.com", "site_cat": "#000", "site_freq": 0.2988228999464955, "url": null}, {"category": "", "frequency": 0.0009818518082139935, "site": "porn-tube-club.com", "site_cat": "#000", "site_freq": 0.8, "url": null}, {"category": "", "frequency": 0.0009747110677906193, "site": "xonline.tv", "site_cat": "#000", "site_freq": 0.8498054474708171, "url": null}, {"category": "", "frequency": 0.0009631073646026356, "site": "candypleasure.com", "site_cat": "#000", "site_freq": 0.4258089976322021, "url": null}, {"category": "", "frequency": 0.0009497184763088084, "site": "linaxxx.com", "site_cat": "#000", "site_freq": 0.5833333333333334, "url": null}, {"category": "", "frequency": 0.0009416851433325119, "site": "teenskitten.com", "site_cat": "#000", "site_freq": 0.7336578581363005, "url": null}, {"category": "", "frequency": 0.0009381147731208248, "site": "pissrip.net", "site_cat": "#000", "site_freq": 0.5324214792299898, "url": null}, {"category": "", "frequency": 0.0009381147731208248, "site": "hairy-beauty.com", "site_cat": "#000", "site_freq": 0.31168446026097274, "url": null}, {"category": "", "frequency": 0.000932759217803294, "site": "88gals.com", "site_cat": "#000", "site_freq": 0.76, "url": null}, {"category": "", "frequency": 0.0009211555146153103, "site": "celebrity-leaks.net", "site_cat": "#000", "site_freq": 0.7171646977067407, "url": null}, {"category": "", "frequency": 0.0009211555146153103, "site": "putinho.net", "site_cat": "#000", "site_freq": 0.7267605633802817, "url": null}, {"category": "", "frequency": 0.0009006258858981088, "site": "cat3plus.com", "site_cat": "#000", "site_freq": 0.6539209332469216, "url": null}]')</script>
+    </div>
+
+</div>
+                
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+    
+
+    
+    <div class="breadcrumb-bar" style="border-bottom: solid 1px #333;">
+    
+        <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/trackers.html">Trackers</a></li>
+                    
+                        <li>JuicyAds</li>
+                    
+                </ul>
+        </div>
+    </div>
+    
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12 menu">
+                <a href="/privacy-policy.html">
+                    Privacy Policy
+                </a>
+                <span class="divisor">&#x2027;</span>
+                <a target="_blank" href="https://cliqz.com/en/about">
+                    About
+                </a>
+                <span class="divisor">&#x2027;</span>
+                <a target="_blank" href="https://cliqz.com/en/about/careers">
+                    Careers
+                </a>
+                <span class="divisor">&#x2027;</span>
+                <a target="_blank" href="https://cliqz.com/en/download">
+                    Cliqz browser
+                </a>
+                <span class="divisor">&#x2027;</span>
+                <a target="_blank" href="https://www.ghostery.com/en/products/">
+                    Ghostery add-on
+                </a>
+                <span class="divisor">&#x2027;</span>
+                <i class="fa fa fa-github"></i>
+                <a target="_blank" rel="noreferrer" href="https://github.com/cliqz-oss/whotracks.me">
+                    Get the data
+                </a>
+                <div class="copyright">
+                    &copy; Cliqz - All rights reserved. Last updated on 20.10.2018
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-xs-12 logos">
+                <a href="https://cliqz.com/en/" target="_blank">
+                    <span class="cliqz-logo"></span>
+                </a>
+                <a href="https://www.ghostery.com/" target="_blank">
+                    <span class="ghostery-logo"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Local javascript modules -->
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../static/js/search.js"></script>
+
+
+</footer>
+<!-- END OF FOOTER -->
